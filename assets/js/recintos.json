@@ -1,0 +1,96 @@
+{
+"infosport": {
+    "recintos": [
+      {
+        "localizacion": "sdfasf",
+        "actividades": "asfdas",
+        "aforo": "dsfa",
+        "recinto": "Pabellón Cho Pastor",
+        "transporte": "fsda",
+        "valoracion": "sdaf",
+        "porcentaje": "sdaf"
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón Municipal El Rosario",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Complejo Deportivo Paulino Rivero",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Complejo Deportivo Ofra",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón municipal Adeje",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón Municipal Granadilla",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón Universidad de La Laguna",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón IES Puntalarga",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón municipal Puerto de la Cruz",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      },
+      {
+        "localizacion": " ",
+        "actividades": " ",
+        "aforo": " ",
+        "recinto": "Pabellón Santiago Martín",
+        "transporte": " ",
+        "valoracion": " ",
+        "porcentaje": " "
+      }
+    ]
+  }
+}

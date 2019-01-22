@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
+		<title>InfoSport</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,23 +13,79 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<h1>Generic</h1>
-						<p>Ipsum dolor sit amet nullam</p>
+					<header id="header" class="alt">
+						<div class="logo"><img src="images/badminton.png" alt="" /></div>
+						<h1>InfoSport</h1>
+						<p>Donde el usuario se encuentra con el deporte</p>
 					</header>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Content -->
-							<section id="content" class="main">
-								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
-								<h2>Magna feugiat lorem</h2>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-								<h2>Tempus veroeros</h2>
-								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-							</section>
+						<section id="content" class="main">
+							 <form role="search">
+                                <select  aria-required="true" aria-autocomplete="true" id="search" type="search" class="pabellon" placeholder="Introduce el recinto" size=1>
+                                    <option value="Pabellón Cho Pastor">Pabellón Cho Pastor</option>
+                                    <option value="Pabellón Municipal El Rosario">Pabellón Municipal El Rosario</option>
+                                    <option value="Complejo Deportivo Paulino Rivero">Complejo Deportivo Paulino Rivero</option>
+                                    <option value="Complejo Deportivo Ofra">Complejo Deportivo Ofra</option>
+                                    <option value="Pabellón municipal Adeje">Pabellón municipal Adeje</option>
+                                    <option value="Pabellón Municipal Granadilla">Pabellón Municipal Granadilla</option>
+                                    <option value="Pabellón Universidad de La Laguna">Pabellón Universidad de La Laguna</option>
+                                    <option value="Pabellón IES Puntalarga">Pabellón IES Puntalarga</option>
+                                    <option value="Pabellón municipal Puerto de la Cruz">Pabellón municipal Puerto de la Cruz</option>
+                                    <option value="Pabellón Santiago Martín">Pabellón Santiago Martín</option>
+
+                                </select>
+                            </form>
+
+							<button role="button" type="submit" name="action" id="muestra" > MOSTRAR </button>
+
+							</br>
+							</br>
+							</br>
+
+							<form>
+
+                                    <div class="form-group"> <!-- Full Name -->
+                                        <label for="full_name_id" class="control-label">Nombre completo</label>
+                                        <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="">
+                                    </div>
+
+                                    <div class="form-group"> <!-- Street 1 -->
+                                        <label for="street1_id" class="control-label">Punto de recogida</label>
+                                        <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Aeropuerto de los Rodeos, Aeropuerto Sur,...">
+                                    </div>
+
+                                    <div class="form-group"> <!-- Street 2 -->
+                                        <label for="street2_id" class="control-label">Dirección de correo</label>
+                                        <input type="text" class="form-control" id="street2_id" name="street2" placeholder="xxxxxxx@gmail.com">
+                                    </div>
+
+                                    <div class="form-group"> <!-- City-->
+                                        <label for="city_id" class="control-label">Numero de personas</label>
+                                        <input type="text" class="form-control" id="city_id" name="city" placeholder="">
+                                    </div>
+
+                                    <div class="form-group"> <!-- State Button -->
+                                        <label for="state_id" class="control-label">Tipo tarjeta de crédito</label>
+                                        <select class="form-control" id="state_id">
+                                            <option value="AL">VISA</option>
+                                            <option value="AK">VISA Electron</option>
+                                            <option value="AZ">Mastercard</option>
+                                            <option value="AR">Diners Club</option>
+                                            <option value="CA">American Express</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group"> <!-- Zip Code-->
+                                        <label for="zip_id" class="control-label">Numero de tarjeta</label>
+                                        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="####-####-####-####">
+                                    </div>
+                            </form>
+
+						</section>
 
 					</div>
 
@@ -69,6 +120,43 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="assets/js/campos.js"></script>
+
+			
+								<script type="text/javascript">
+                                    $(document).ready(function () {
+                                        $("#muestra").click(function () {
+                                            var cad = "Breve resumen con las características del recinto elegido<br />";
+                                            cad += "___________________________________<br />";
+                                            var aux= ($(".pabellon").val());
+                                            alert("✅ SUCCEED Busqueda realizada con el recinto introducido ✅ ");
+                                            var cadena = $.getJSON("assets/js/recintos.json", function (data) {
+                                                for (l in data.infosport.recintos) {
+                                                    if (aux == data.infosport.recintos[l].recinto){
+                                                        cad += ("</br>" + data.infosport.recintos[l].recinto + ":</br>" +
+                                                        "</br> - Localización del recinto: " +
+                                                        data.infosport.recintos[l].localizacion +
+														"</br> - Actividades realizadas en el recinto: " +
+                                                        data.infosport.recintos[l].actividades +
+                                                        "</br> - Aforo del recinto: " +
+                                                        data.infosport.recintos[l].aforo +
+                                                        "</br> - Nombre del recinto: " +
+                                                        data.infosport.recintos[l].recinto  +
+                                                        "</br> - Transporte recomendado: " +
+                                                        data.infosport.recintos[l].transporte  +
+                                                        "</br> - Valoración: " +
+                                                        data.infosport.recintos[l].valoracion +
+                                                        "</br> - Porcentaje de ocupación: " +
+                                                        data.infosport.recintos[l].porcentaje +
+                                                        "</br>").replace("y undefined", "").replace(", undefined", "");
+                                                    }
+                                                }
+                                                cad+= "</br> ";
+                                                $("#texto").html(cad);
+                                            })
+                                        })
+                                    });
+                                </script>
 
 	</body>
 </html>
