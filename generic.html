@@ -129,7 +129,7 @@
                                             var cad = "Breve resumen con las características del recinto elegido<br />";
                                             cad += "___________________________________<br />";
                                             var aux= ($(".pabellon").val());
-                                            alert("✅ SUCCEED Busqueda realizada con el recinto introducido ✅ ");
+                                            alert("✅ SUCCEED Busqueda realizada con el recinto introducido ✅");
                                             var cadena = $.getJSON("assets/js/recintos.json", function (data) {
                                                 for (l in data.infosport.recintos) {
                                                     if (aux == data.infosport.recintos[l].recinto){

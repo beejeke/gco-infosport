@@ -1,0 +1,22 @@
+{
+  "name": "gco-infosport",
+  "version": "1.0.0",
+  "description": "*   Asignatura: Gestión del Conocimiento en las Organizaciones (GCO) *   Universidad: Universidad de La Laguna (ULL) *   Itinerario: Tecnologías de la Información *   Curso: 2018/19",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beejeke/gco-infosport.git"
+  },
+  "author": "Omar Mendo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beejeke/gco-infosport/issues"
+  },
+  "homepage": "https://github.com/beejeke/gco-infosport#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
