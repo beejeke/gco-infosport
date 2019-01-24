@@ -34,3 +34,8 @@ function comprobar2(){
     alert("[SUCCEED] DATOS ENVIADOS AL SERVIDOR");
     return true;
 }
+
+function Mostrarsmile() {
+    
+    document.getElementById("smile").style.visibility ='visible';
+}

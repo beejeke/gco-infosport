@@ -21,9 +21,9 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Content -->
 						<section id="content" class="main">
+						<p>1. Selecciona el recinto deportivo que deseas buscar</p>
 							 <form role="search">
                                 <select  aria-required="true" aria-autocomplete="true" id="search" type="search" class="pabellon" placeholder="Introduce el recinto" size=1>
                                     <option value="Pabellón Cho Pastor">Pabellón Cho Pastor</option>
@@ -44,6 +44,20 @@
 
 							</br>
 							</br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d166645.0406676614!2d-16.42017627526651!3d28.37480602290258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1548329110213" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<div>
+								<p> Dirección: Camino de Candelaria, 38109, Radazul, Santa Cruz de Tenerife, </p>
+        						<p> 	Actividades: Fútbol Sala, Bádminton, Pilates, Zumba, Baloncesto, Voleyball,</p>
+        						<p> 	Aforo: 400 personas,</p>
+        						<p> 	Nombre completo: Pabellón Municipal El Rosario,</p>
+        						<p> 	Transporte: Lineas Titsa zona Metropolitana / Sur,</p>
+        						<p> 	Calificación: 9/10,</p>
+       							<p> 	Reservas: 80% actividades ocupadas</p>
+							</div>
+							</br>
+							</br>
+
+							<p>2. Introduce tus datos para poder reservar tu plaza en la actividad que desees</p>
 							</br>
 
 							<form>
@@ -54,8 +68,8 @@
                                     </div>
 
                                     <div class="form-group"> <!-- Street 1 -->
-                                        <label for="street1_id" class="control-label">Punto de recogida</label>
-                                        <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Aeropuerto de los Rodeos, Aeropuerto Sur,...">
+                                        <label for="street1_id" class="control-label">Actividad</label>
+                                        <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Bádminton, Zumba, Baloncesto, ...">
                                     </div>
 
                                     <div class="form-group"> <!-- Street 2 -->
@@ -64,7 +78,7 @@
                                     </div>
 
                                     <div class="form-group"> <!-- City-->
-                                        <label for="city_id" class="control-label">Numero de personas</label>
+                                        <label for="city_id" class="control-label">Número de personas</label>
                                         <input type="text" class="form-control" id="city_id" name="city" placeholder="">
                                     </div>
 
@@ -84,6 +98,17 @@
                                         <input type="text" class="form-control" id="zip_id" name="zip" placeholder="####-####-####-####">
                                     </div>
                             </form>
+
+							 
+                                        <button type="submit" class="btn btn-primary" name="action" onclick="Mostrarsmile()">Reservar actividad</button>
+                                </br>
+                                </br>
+                                        <div id="smile" style="visibility:hidden">
+                                            
+                                        </br>
+                                        <h5>¡Su reserva se ha sido realizada con éxito! ✅</h5>
+                                        </div>
+        
 
 						</section>
 
@@ -129,7 +154,7 @@
                                             var cad = "Breve resumen con las características del recinto elegido<br />";
                                             cad += "___________________________________<br />";
                                             var aux= ($(".pabellon").val());
-                                            alert("✅ SUCCEED Busqueda realizada con el recinto introducido ✅");
+                                            alert("✅  Busqueda realizada con el recinto introducido ✅");
                                             var cadena = $.getJSON("assets/js/recintos.json", function (data) {
                                                 for (l in data.infosport.recintos) {
                                                     if (aux == data.infosport.recintos[l].recinto){

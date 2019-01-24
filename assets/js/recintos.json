@@ -2,94 +2,94 @@
 "infosport": {
     "recintos": [
       {
-        "localizacion": "sdfasf",
-        "actividades": "asfdas",
-        "aforo": "dsfa",
+        "localizacion": "Calle Finca Pastor, 24, 38390 Sta Úrsula, Santa Cruz de Tenerife",
+        "actividades": "Fútbol Sala, Bádminton, Danza, Pilates, Baloncesto",
+        "aforo": "200 personas",
         "recinto": "Pabellón Cho Pastor",
-        "transporte": "fsda",
-        "valoracion": "sdaf",
-        "porcentaje": "sdaf"
+        "transporte": "Lineas Titsa zona Norte",
+        "valoracion": "7/10",
+        "porcentaje": "45% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Camino de Candelaria, 38109, Radazul, Santa Cruz de Tenerife",
+        "actividades": "Fútbol Sala, Bádminton, Pilates, Zumba, Baloncesto, Voleyball",
+        "aforo": "400 personas",
         "recinto": "Pabellón Municipal El Rosario",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Metropolitana / Sur",
+        "valoracion": "9/10",
+        "porcentaje": "80% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Calle San Cristobal, s/n, 38359 El Sauzal, Santa Cruz de Tenerife",
+        "actividades": "Bádminton, Baloncesto, Fútbol Sala, Danza, Voleyball",
+        "aforo": "350 personas",
         "recinto": "Complejo Deportivo Paulino Rivero",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Norte",
+        "valoracion": "8'5/10",
+        "porcentaje": "55% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Calle Diego de Almagro, 1, 38010 Santa Cruz de Tenerife",
+        "actividades": "Bádminton, Fútbol Sala, Tenis, Stretching, Zumba, Cardio, Baloncesto, Pádel, Tenis",
+        "aforo": "300 personas",
         "recinto": "Complejo Deportivo Ofra",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Tranvía, Lineas Titsa zona Metropolitana",
+        "valoracion": "8/10",
+        "porcentaje": "75% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Av. Palo Mayor, s/n, 38670 Adeje Casco, Santa Cruz de Tenerife",
+        "actividades": "Baloncesto, Fútbol Sala, Bádminton, Zumba, Danza, Voleyball",
+        "aforo": "400 personas",
         "recinto": "Pabellón municipal Adeje",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Sur",
+        "valoracion": "7/10",
+        "porcentaje": "25% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Calle Ramal El Desierto, 38600 Granadilla, Santa Cruz de Tenerife ",
+        "actividades": "Bádminton, Fútbol Sala, Tenis de mesa, Danza, Artes Marciales",
+        "aforo": "300 personas",
         "recinto": "Pabellón Municipal Granadilla",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Sur",
+        "valoracion": "8/10",
+        "porcentaje": "35% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Avenida Angel Guimerá Jorge, 0 S/N s-n, 38206 San Cristóbal de La Laguna, Santa Cruz de Tenerife",
+        "actividades": "Baloncesto, Bádminton, Fútbol Sala, Balonmano, Danza, Salsa, Zumba",
+        "aforo": "150 personas",
         "recinto": "Pabellón Universidad de La Laguna",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Tranvia, Lineas Titsa zona Metropolitana",
+        "valoracion": "7/10",
+        "porcentaje": "65% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Avda. Los Menceyes, s/n, 38530 Candelaria, Santa Cruz de Tenerife",
+        "actividades": "Baloncesto, Fútbol Sala, Danza",
+        "aforo": "100 personas",
         "recinto": "Pabellón IES Puntalarga",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Sur",
+        "valoracion": "6/10",
+        "porcentaje": "35% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Av. Melchor Luz, 8, 38400 Puerto de la Cruz, Santa Cruz de Tenerife",
+        "actividades": "Baloncesto, Danza, Fútbol Sala, Bádminton",
+        "aforo": "200 personas",
         "recinto": "Pabellón municipal Puerto de la Cruz",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Lineas Titsa zona Norte",
+        "valoracion": "7/10",
+        "porcentaje": "55% actividades ocupadas"
       },
       {
-        "localizacion": " ",
-        "actividades": " ",
-        "aforo": " ",
+        "localizacion": "Los Majuelos, Calle las Mercedes, s/n, 38108 San Cristóbal de La Laguna, Santa Cruz de Tenerife",
+        "actividades": "Baloncesto, Voleyball",
+        "aforo": "800 personas",
         "recinto": "Pabellón Santiago Martín",
-        "transporte": " ",
-        "valoracion": " ",
-        "porcentaje": " "
+        "transporte": "Tranvia, Lineas Titsa zona Metropolitana",
+        "valoracion": "9/10",
+        "porcentaje": "95% actividades ocupadas"
       }
     ]
   }
